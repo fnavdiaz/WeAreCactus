@@ -1,3 +1,21 @@
+# API REST para Aplicación de Gestión de Tareas Personales
+
+Este proyecto consiste en una API RESTful diseñada para la gestión de tareas personales. La API permite a los usuarios registrarse, autenticarse y gestionar sus propias tareas de forma segura y eficiente.
+
+## Funcionalidades Principales
+
+Cada usuario deberá poder:
+
+- **Registrarse** en la plataforma.
+- **Autenticarse** mediante el protocolo **OAuth2**.
+- **Crear**, **visualizar**, **modificar** y **eliminar** **únicamente sus propias tareas**.
+
+## Requisitos Técnicos
+
+- La API debe estar implementada de manera que **solo el propietario de una tarea** pueda acceder o modificarla.
+- El sistema de autenticación debe seguir el estándar **OAuth2**, garantizando la protección de las credenciales y el acceso seguro a los recursos.
+- Se debe implementar un sistema de pruebas utilizando **pytest** para verificar el correcto funcionamiento de cada endpoint y las restricciones de acceso.
+
 # Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalado en tu equipo:  
