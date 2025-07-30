@@ -83,7 +83,7 @@ PUT    /api/tasks/<id>/   → actualizar una tarea
 DELETE /api/tasks/<id>/   → eliminar una tarea
 ```
 
-8. Para ejecutar los tests automatizados:
+## Para ejecutar los tests automatizados:
    ```bash
    docker compose exec web pytest
    ```
