@@ -28,8 +28,8 @@ No es necesario tener Python ni instalar dependencias manualmente, ya que todo s
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/fnavdiaz/WeAreCactus.git
-   cd WeAreCactus
+   git clone https://github.com/fnavdiaz/Proyecto-Django.git
+   cd Proyecto-Django
    ```
 
 2. Levantar los contenedores con Docker:
